@@ -6,13 +6,12 @@
 
 ---
 
-
 ## 💻 API 키 설정 방법(.env 관리)
 ```
 gemini_key = os.getenv("GEMINI_API_KEY")
 kakao_key = os.getenv("KAKAO_REST_API_KEY")
 ```
-
+---
 
 ## 🚀 실행 방법
 ### 1. 저장소 클론
@@ -21,49 +20,17 @@ kakao_key = os.getenv("KAKAO_REST_API_KEY")
 git clone https://github.com/zero-ysyang/advanced_A1-2.git
 cd advanced_A1-2
 ```
-<img width="676" height="161" alt="20260808_183210" src="https://github.com/user-attachments/assets/897f307f-f41f-4504-a922-0a82a3f0b3ce" />
-
+<img width="681" height="142" alt="20260811_222254" src="https://github.com/user-attachments/assets/4c07e00e-979e-4a05-b6d6-42fb8e95256b" />
 
 ### 2. 프로그램 실행 
 ```bash
 python travel_planner.py --date "2026-08-XX"
 ```
+<img width="682" height="208" alt="image" src="https://github.com/user-attachments/assets/702343a4-e3ed-4635-979a-4ca832c0ad9c" />
 
-<img width="571" height="232" alt="캡처33" src="https://github.com/user-attachments/assets/f5fa6b8a-822c-470f-8df2-3db5c17e94a6" />
+---
 
-## 📖 결과물 확인 방법
+## 📖 결과물 확인 방법(results 폴더)
+1. 원본 데이터 2026-08-XX_data.json 파일 확인
+2. 최종 리포트 2026-08-XX_travel_plan.md 파일 확인
 
-프로그램 실행 후 메뉴 번호를 입력하여 기능을 선택합니다.
-
-```
-=== 나만의 프롬프트 관리 ===
-1. 프롬프트 추가
-2. 프롬프트 목록
-3. 카테고리별 조회
-4. 프롬프트 검색
-5. 프롬프트 상세 보기
-6. 즐겨찾기 관리
-7. 즐겨찾기 목록
-0. 종료
-선택: 
-```
-
-### 1. 프롬프트 추가
-```
-선택: 1
-
-=== 프롬프트 추가 ===
-제목: 이메일 작성 도우미
-내용: 당신은 전문 이메일 작성자입니다...
-
-카테고리 선택:
-1) 텍스트 생성
-2) 이미지 생성
-3) 영상 생성
-4) 페르소나
-5) 자동화
-6) 기타
-선택: 1
-
-프롬프트가 추가되었습니다!
-```
