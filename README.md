@@ -16,17 +16,20 @@ kakao_key = os.getenv("KAKAO_REST_API_KEY")
 ## 🚀 실행 방법
 ### 1. 저장소 클론
 
-```bash
+```
 git clone https://github.com/zero-ysyang/advanced_A1-2.git
 cd advanced_A1-2
 ```
 <img width="681" height="142" alt="20260811_222254" src="https://github.com/user-attachments/assets/4c07e00e-979e-4a05-b6d6-42fb8e95256b" />
 
 ### 2. 프로그램 실행 
-```bash
+```
 python travel_planner.py --date "2026-08-XX"
 ```
 <img width="682" height="208" alt="image" src="https://github.com/user-attachments/assets/702343a4-e3ed-4635-979a-4ca832c0ad9c" />
+
+#### <결과 캐싱>
+<img width="688" height="109" alt="캡처" src="https://github.com/user-attachments/assets/f2cb4187-f3fe-484b-bac9-021b4f700874" />
 
 ---
 
