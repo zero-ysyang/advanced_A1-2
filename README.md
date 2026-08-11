@@ -11,6 +11,11 @@
 gemini_key = os.getenv("GEMINI_API_KEY")
 kakao_key = os.getenv("KAKAO_REST_API_KEY")
 ```
+### .evn 왜 필요한가?
+1. 협업/공유 시 실수로 키가 공개되는 것을 막는다.
+2. 키를 교체하더라도 코드를 수정하지 않아도 된다(운영/배포에 유리).
+3. 과금/쿼터가 걸린 서비스에서 사고를 예방한다
+
 ---
 
 ## 🚀 실행 방법
@@ -30,6 +35,11 @@ python travel_planner.py --date "2026-08-XX"
 
 #### <결과 캐싱>
 <img width="688" height="109" alt="캡처" src="https://github.com/user-attachments/assets/f2cb4187-f3fe-484b-bac9-021b4f700874" />
+
+#### <입력값 검증>
+<img width="844" height="58" alt="20260811_224901" src="https://github.com/user-attachments/assets/dcd104cc-0ee6-43c1-a85a-57a5cf7030a8" />
+
+
 
 ---
 
